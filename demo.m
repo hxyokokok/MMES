@@ -20,7 +20,7 @@ opt.maxFEs = 2e7;
 opt.verbose = 1;
 opt.stoptime = inf;
 opt.ms = 4;
-opt.enable_acceleration = 1;
+opt.enable_acceleration = 0;
 
 fobj = BasicBenchmarkFast(funNo,D);
 tic
